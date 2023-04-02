@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>ExpressShopG/Home</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+            <a class="navbar-brand" id="LogoTexto" href="#"><img id="LogoImagem" src="img/Logo.png" alt="">Express Shop G</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"><i class='bx bxs-home'></i>Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class='bx bxs-package'></i>Meus pedidos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class='bx bxs-user'></i>
+                    Acesso
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#"><i class='bx bxs-log-in'></i>Entre</a>
+                    <a class="dropdown-item" href="#"><i class='bx bxs-credit-card-front'></i>Cadastre-se</a>
+                    
+                  </div>
+                </li>
+               
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class='bx bx-search'></i>Buscar</button>
+              </form>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                
+                </ol>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#"><img  class="d-block w-100" src="img/Slide1.jpg" alt="First slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="img/Slide2.jpg" alt="Two slide"></a>
+                </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+        
+
+    <div id="Categorias" class="block">
+        <div class="container">
+            <h2 class="title text-center" id="TextoTituloCategoria">SELECIONE UMA DAS CATEGORIAS,</h2>
+            <h4 class="subtitle text-center mb-4" id="TextoSubTituloCategoria">e aproveite as ofertas!</h4>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <a href="#" class="Categoria">
+                        <div class="img-container mb-3">
+                            <img src="img/Categoria-Smartphones.png" class="img-fluid" alt="">
+                        </div>
+                        <h5>SMARTPHONES</h5>
+                        <p class="mb-0">Os melhores smartphones para você!</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <a href="#" class="Categoria">
+                        <div class="img-container mb-3">
+                            <img src="img/Categoria-Pcs.png" class="img-fluid" alt="">
+                        </div>
+                        <h5>PCS</h5>
+                        <p class="mb-0">O melhor dos pcs, para rodar o seu jogo favorito!</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <a href="#" class="Categoria">
+                        <div class="img-container mb-3">
+                            <img src="img/Categoria-Periféricos.png" class="img-fluid" alt="">
+                        </div>
+                        <h5>PERIFÉRICOS</h5>
+                        <p class="mb-0">Fiquei ainda melhor nos jogos com esses periféricos!</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <a href="#" class="Categoria">
+                        <div class="img-container mb-3">
+                            <img src="img/Categoria-Games.png" class="img-fluid" alt="">
+                        </div>
+                        <h5>GAMES</h5>
+                        <p class="mb-0">O lugar certo de comprar consoles e jogos é aqui!</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <footer class="page-footer font-small blue pt-4">
+        <div class="container-fluid text-center text-md-left">
+        <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3">
+                <h5 class="text-uppercase" id="LogoTextoFooter"><img id="LogoImagem" src="img/Logo.png" alt="">Express Shop G</h5>
+                <p>Preços e condições de pagamento exclusivos para compras via internet, podendo variar nas lojas físicas. 
+                    Ofertas válidas na compra de até 10 peças de cada produto por cliente, até o término dos nossos estoques para internet. 
+                    Caso os produtos apresentem divergências de valores, o preço válido é o da sacola de compras. Vendas sujeitas a análise e 
+                    confirmação de dados.
+                </p>
+                    
+                <p> Express Shop G S/A - CNPJ: 00.000.000/0000-00</p>
+                    
+                <p>Endereço: Rua Toledo, 0001 - Furquim, Presidente Prudente/SP - CEP 19570-000</p> 
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">Categorias</h5>
+            <ul class="list-unstyled">
+                <li>
+                <a href="#">Smartphones</a>
+                </li>
+                <li>
+                <a href="#">Pcs</a>
+                </li>
+                <li>
+                <a href="#">Periféricos</a>
+                </li>
+                <li>
+                <a href="#">Games</a>
+                </li>
+            </ul>
+            </div>
+            <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">Central de atendimento</h5>
+            <ul class="list-unstyled">
+                <li>
+                <a href="#">Atendimento</a>
+                </li>
+                <li>
+                <a href="#">Tempo de compra e venda</a>
+                </li>
+                <li>
+                <a href="#">Arrependimento ou desistência</a>
+                </li>
+                <li>
+                <a href="#">Meus pedidos</a>
+                </li>
+            </ul>
+    
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2022 Copyright:
+            <a href="#">Todos os direitos reservados a Express Shop G S/A - Gustavo Caruso</a>
+            <p>Profesora será que mereço um 10? :)</p>
+        </div>
+    </footer>
+ 
+
+    
+</body>
+
+</html>
